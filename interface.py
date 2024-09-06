@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import joblib
 
 def detect_fraudulent_transactions(new_data: pd.DataFrame, model) -> pd.DataFrame:
     # Predict anomalies in the new dataset
